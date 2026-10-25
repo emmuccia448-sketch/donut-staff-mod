@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "donutstafftracker",
+  "version": "1.0.0",
+  "name": "Donut Staff Tracker",
+  "description": "HUD Mod for DonutSMP to track online Staff, Devs, and Owners with draggable HUD.",
+  "authors": ["Gemini"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.donut.stafftracker.DonutStaffTrackerClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": ">=1.21",
+    "java": ">=21"
+  }
+}
